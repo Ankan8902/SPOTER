@@ -1,0 +1,37 @@
+.majorcontainer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    }
+    .data{
+        justify-content: center;
+        /* align-items: center; */
+        width: 53vw;
+        padding: 10vw;
+        display: flex;
+        flex-direction: column;
+    }
+.head{
+    width:24vw;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 3vw;
+line-height: 5vw;
+text-align: left;
+color: #EBEDFF;
+    position: relative;
+    
+}
+.para{
+    left: 0vw;
+    top:0vh;
+    text-align: center;
+    position: relative;
+}
+.data2{
+    
+   padding-top: 15vh;
+   padding-right: 6vw;
+}
