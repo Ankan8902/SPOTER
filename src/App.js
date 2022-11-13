@@ -1,11 +1,11 @@
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 // import Landing from './components/LandingPage/Landing'
 
 
-// import Home from './components/HomePage/Home'
+import Home from './components/HomePage/Home'
 // import Workout from './components/WorkoutPage/WorkoutPage'
 // import Nutrition from './components/NutritionPage/Nutrition'
 // import Trainer from './components/TrainerPage/trainer'
@@ -77,13 +77,22 @@ function App() {
               <Signup />
             }
           </Route>
-          {/* <Route path="/home">
+
+          <Route path="/home">
             {
-              auth ?
-                <Home /> :
-                <Redirect to="/" />
+              <Home />
             }
           </Route>
+
+
+
+          {/* <Route path="/home">
+            {
+              // auth ?
+                <Home />
+                // <Redirect to="/" />
+            } */}
+          {/* </Route>
           <Route path="/nutrition">
             {
               auth ?
